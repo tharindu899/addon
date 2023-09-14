@@ -15,7 +15,7 @@ existing_aliases=($(grep -o "alias [^=]*=" ~/.zshrc | cut -d" " -f2 | cut -d"=" 
 while true; do
     read -p "Enter an alias name or 'e' to exit: " choice
     if [ "$choice" = "e" ]; then
-        echo -e "${YELLOW}Exiting...${RESET}"
+        echo -e "${YELLOW}Exit,bay :)${RESET}"
         exit  # Exit the script
     elif [ -z "$choice" ]; then
         echo -e "${YELLOW}Please type something (alias name) before pressing Enter.${RESET}"
@@ -73,7 +73,7 @@ while true; do
             case "$add_more" in
                 [yY]) break ;;
                 [nN]) 
-                    echo -e "${YELLOW}Exiting...${RESET}"
+                    echo -e "${YELLOW}Exit,bay :)${RESET}"
                     exit ;;
                 *) echo -e "${YELLOW}Invalid input. Please enter 'y' for yes or 'n' for no.${RESET}" ;;
             esac
@@ -83,4 +83,4 @@ done
 
 # Source your zshrc file to apply the changes
 source ~/.zshrc
-echo -e "${YELLOW}Finished adding aliases. Exiting.${RESET}"
+echo -e "${YELLOW}Finished adding aliases. Exit,bay :).${RESET}"
