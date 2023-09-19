@@ -8,5 +8,6 @@ setopt +o nomatch
 PS1='>>>'
 PS1='\[\e[31m\]>\[\e[0m\]\[\e[93m\]\A\[\e[0m\]\[\e[31m\]>\[\e[0m\]\[\e[36m\]\w\[\e[0m\]\[\e[31m\]>\[\e[0m\]\[\e[39m\]\n\[\e[0m\]\[\e[31m\]>>>\[\e[0m\]\[\e[32m\]'
 cd /data/data/com.termux/files/usr/etc/
-cat banner.txt | lolcat --spread=1 --speed=100 
+#cat banner.txt | lolcat --spread=1 --speed=100 
+bash rxfetch
 cd
