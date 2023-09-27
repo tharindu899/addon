@@ -2,7 +2,36 @@ ZSH_THEME="xiong-chiamiov-plus"
 
 export ZSH=$HOME/.oh-my-zsh
 
-plugins=(git)
+#plugins=(
+#		git
+#	   	zsh-vi-mode
+#)
+
+plugins=(
+	copypath
+	dircycle
+	extract
+	frontend-search
+	git
+	git-auto-fetch
+	git-flow-completion
+	gitfast
+	git-prompt
+	ionic
+#	last-working-dir
+	magic-enter
+	per-directory-history
+	pre-commit
+	safe-paste
+	web-search
+#	zsh-autosuggestions
+	zsh-completions
+	zsh-history-substring-search
+#	zsh-interactive-cd
+#	zsh-syntax-highlighting
+#	zsh-vi-mode
+)
+
 
 source $ZSH/oh-my-zsh.sh
 
@@ -22,7 +51,8 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source ~/../usr/etc/.plugin/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/../usr/etc/.plugin/zsh-autosuggestions/zsh-autosuggestions.zsh
-alias a='apt install'
+alias pkg='nala'
+alias apt='nala'
 alias g='git clone'
 alias t='termux-open'
 alias ai='apt install'
@@ -37,11 +67,11 @@ alias ls='logo-ls -A'
 alias r='termux-reload-settings'
 alias storage='termux-setup-storage'
 alias repo='termux-change-repo'
-alias pi='pkg install'
-alias pup='pkg update'
-alias pug='pkg upgrate'
-alias aup='apt update'
-alias apg='apt upvarde'
+alias pi='nala install'
+alias pup='nala update'
+alias pug='nala upgrate -y'
+alias aup='nala update'
+alias apg='nala upgarde -y'
 alias c='cd ..'
 alias etc='cd /data/data/com.termux/files/usr/etc'
 alias n='nano'
