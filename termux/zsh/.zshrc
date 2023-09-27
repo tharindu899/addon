@@ -29,7 +29,7 @@ plugins=(
 	zsh-history-substring-search
 #	zsh-interactive-cd
 #	zsh-syntax-highlighting
-#	zsh-vi-mode
+	zsh-vi-mode
 )
 
 
