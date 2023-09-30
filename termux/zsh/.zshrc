@@ -1,6 +1,9 @@
 ZSH_THEME="xiong-chiamiov-plus"
 
 export ZSH=$HOME/.oh-my-zsh
+export LANG=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+export LC_CTYPE=en_US.UTF-8
 
 #plugins=(
 #		git
@@ -62,8 +65,10 @@ alias py3='python3'
 alias g='git clone'
 alias t='termux-open'
 alias m='micro'
-#alias ls='lsd -F -A'
-alias ls='logo-ls -A'
+alias ls='logo-ls'
+alias lsa='logo-ls -A'
+alias lsal='logo-ls -R -A'
+alias lsall='logo-ls -r -A'
 alias r='termux-reload-settings'
 alias storage='termux-setup-storage'
 alias repo='termux-change-repo'
