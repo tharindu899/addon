@@ -11,28 +11,28 @@ export LC_CTYPE=en_US.UTF-8
 #)
 
 plugins=(
-	copypath
-	dircycle
-	extract
-	frontend-search
-	git
-	git-auto-fetch
-	git-flow-completion
-	gitfast
-	git-prompt
-	ionic
+ 	copypath
+ 	dircycle
+ 	extract
+ 	frontend-search
+ 	git
+ 	git-auto-fetch
+ 	git-flow-completion
+ 	gitfast
+ 	git-prompt
+ 	ionic
 #	last-working-dir
-	magic-enter
-	per-directory-history
-	pre-commit
-	safe-paste
-	web-search
+#	magic-enter
+#	per-directory-history
+ 	pre-commit
+ 	safe-paste
+ 	web-search
 #	zsh-autosuggestions
-	zsh-completions
-	zsh-history-substring-search
+ 	zsh-completions
+ 	zsh-history-substring-search
 #	zsh-interactive-cd
 #	zsh-syntax-highlighting
-	zsh-vi-mode
+#	zsh-vi-mode
 )
 
 
