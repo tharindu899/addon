@@ -54,7 +54,7 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source ~/../usr/etc/.plugin/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source ~/../usr/etc/.plugin/zsh-autosuggestions/zsh-autosuggestions.zsh
-alias pkg='nala'
+#alias pkg='nala'
 alias apt='nala'
 alias g='git clone'
 alias t='termux-open'
