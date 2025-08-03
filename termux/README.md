@@ -5,7 +5,7 @@ Deploy web applications to VPS directly from Termux
 ## Installation
 ```bash
 pkg update -y && pkg install -y wget openssh && \
-wget https://github.com/tharindu899/addon/raw/refs/heads/main/termux/termux-deploy_3.0_all.deb -O termux-deploy.deb && \
+wget https://github.com/tharindu899/addon/raw/refs/heads/main/termux/termux-deploy_V3.1.deb -O termux-deploy.deb && \
 dpkg -i termux-deploy.deb && \
 rm termux-deploy.deb
 ```
